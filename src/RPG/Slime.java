@@ -12,7 +12,7 @@ public class Slime extends Monster {
 	public void attack(List<Character> chars) {
 		System.out.println("スライムの攻撃");
 		for(Character c : chars) {
-			System.out.println("スライムは"+ c.getName() + "に2与えた");
+			System.out.println("スライムは"+ c.getName() + "に2ダメージ与えた");
 			c.setHp(c.getHp() - 2);
 		}
 	}

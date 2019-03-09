@@ -12,7 +12,7 @@ public class Wizard extends Character {
 	@Override
 	public void attack(Monster m) {
 		System.out.println("Wizardの攻撃");
-		System.out.println("Wizardは3与えた");
+		System.out.println("Wizardは3ダメージ与えた");
 		m.setHp(m.getHp() - 3);
 	}
 

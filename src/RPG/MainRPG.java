@@ -11,7 +11,7 @@ public class MainRPG {
 		/*
 		 *  TODO ②①で生成したインスタンスからCreatePartyメソッドを呼び出す。
 		 *  　　　 引数の値は任意とする。
-		 *  　　　 戻り値は変数に保管すること。
+		 *  　　　 戻り値は変数に保管する。
 		 *  　　　 ここで生成した変数を「N」と仮称する。
 		 */
 		 List<Character> N = partyCreator.createParty("勇者", 30, "魔女", 15);
@@ -21,11 +21,10 @@ public class MainRPG {
 		/*
 		 * TODO ③変数Nに保管されているHeroインスタンスとWizardインスタンスの
 		 * 　　　 introduceメソッドを呼び出す。
-		 * 　　　 繰り返し文を利用すること。
+		 * 　　　 繰り返し文を利用する。
 		 */
-		 for( Character S : N){ //Heroインスタンスたちの共通型はCharacter
+		 for( Character S : N){
 			 S.introduce();
-			 //Heroでも Wizardでもintroduceメソッドの引数は入ってないのでここでも空
 		 }
 
 		/*
@@ -39,7 +38,7 @@ public class MainRPG {
 		/*
 		 * TODO ⑥変数Nに保管されているHeroインスタンスとWizardインスタンスの
 		 * 　　　 attackメソッドを呼び出し、④で生成したスライムインスタンスに攻撃する。
-		 * 　　　 繰り返し文を利用すること。
+		 * 　　　 繰り返し文を利用する。
 		 */
 		 for(Character A : N){
 			 A.attack(slime);

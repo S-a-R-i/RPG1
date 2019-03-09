@@ -59,7 +59,7 @@ public class PartyCreator {
 	 */
 
 	public List<Character> createParty (String heroName, int heroHp, String wizardName, int wizardHp){
-		Character hero = new Hero(heroName,heroHp); //ここがわからなかった
+		Character hero = new Hero(heroName,heroHp);
 		Character wizard = new Wizard(wizardName,wizardHp);
 		List<Character> list = new ArrayList<>();
 		list.add(hero);

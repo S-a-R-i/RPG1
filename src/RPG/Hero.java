@@ -9,7 +9,7 @@ public class Hero extends Character {
 	@Override
 	public void attack(Monster m) {
 		System.out.println("Heroの攻撃");
-		System.out.println("Heroは5与えた");
+		System.out.println("Heroは5ダメージ与えた");
 		m.setHp(m.getHp() - 5);
 	}
 
